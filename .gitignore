@@ -1,0 +1,5 @@
+app/Sisseminek/obj/
+app/Sisseminek/obj/*
+app/Sisseminek/obj/Release/
+app/Sisseminek/obj/Debug/
+app/Sisseminek/bin/

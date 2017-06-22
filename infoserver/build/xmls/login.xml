@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope 
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+	xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:tns="urn:ActionWebService" 
+	xmlns:types="urn:ActionWebService/encodedTypes" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<soap:Body soap:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		<tns:Login><param0 href="#id1" />
+		</tns:Login>
+		<tns:SLoginData id="id1" xsi:type="tns:SLoginData">
+			<password xsi:type="xsd:string">mobiil</password>
+			<login_name xsi:type="xsd:string">mobiil</login_name>
+			<locale xsi:type="xsd:string">et</locale>
+		</tns:SLoginData>
+	</soap:Body>
+</soap:Envelope>

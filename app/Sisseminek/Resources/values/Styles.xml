@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowContentOverlay">@drawable/splash</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:background">#FFFFFF</item>
+    
+  </style>
+  
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+  
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+  </style>
+
+  <!-- Activity with no Title -->
+  <style name="NoTitleActivity" parent="MyTheme.Base">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="color">@color/primary_dark</item>
+    <item name="spinBars">true</item>
+  </style>
+</resources>
